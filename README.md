@@ -82,3 +82,36 @@ The client uses lightweight hash-based pages: `#home`, `#itinerary`, `#saved-tri
 - AI itineraries are suggestions, not verified live information. Verify opening hours, transport, visa requirements, prices, and safety advice before travelling.
 - Do not commit `.env` files or real credentials.
 - See [AI-TOOLS.md](./AI-TOOLS.md) for a short note on AI-assisted development and review.
+
+## Screenshots
+
+### Landing and how it works
+| Home | How it works |
+|---|---|
+| ![Home](screenshots/01-home-hero.png) | ![How it works](screenshots/02-how-it-works.png) |
+
+### Trip planning form
+| Destination and occasion | Interests | Pace and notes |
+|---|---|---|
+| ![Destination](screenshots/03-trip-form-destination-and-occasion.png) | ![Interests](screenshots/04-trip-form-interests-selection.png) | ![Pace](screenshots/05-trip-form-pace-and-notes.png) |
+
+### AI flow
+| Follow-up question | Loading state | Error handling |
+|---|---|---|
+| ![Follow-up](screenshots/07-ai-follow-up-question.png) | ![Loading](screenshots/08-loading-state-generating-itinerary.png) | ![Error](screenshots/06-error-ai-request-timeout.png) |
+
+### Generated itinerary
+![Itinerary overview](screenshots/09-itinerary-overview-day-tabs.png)
+
+| Day 1 | Day 2 |
+|---|---|
+| ![Day 1](screenshots/10-itinerary-day1-timeline.png) | ![Day 2](screenshots/12-itinerary-day2-temples-and-street-food.png) |
+
+| Day 3 | Day 4 | Day 5 |
+|---|---|---|
+| ![Day 3](screenshots/13-itinerary-day3-tea-ceremony-and-gion.png) | ![Day 4](screenshots/14-itinerary-day4-shrines-and-kaiseki.png) | ![Day 5](screenshots/15-itinerary-day5-art-and-sushi.png) |
+
+![Budget, tips and save](screenshots/11-itinerary-budget-tips-save-trip.png)
+
+### Saved trips
+![Saved trips](screenshots/16-saved-trips.png)
