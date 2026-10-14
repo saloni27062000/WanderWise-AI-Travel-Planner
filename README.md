@@ -52,7 +52,7 @@ Copy `.env.example` to `.env` and configure it:
 PORT=5000
 CLIENT_ORIGIN=http://localhost:5173
 GEMINI_API_KEY=your_gemini_api_key_here
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.5-flash-lite
 MONGODB_URI=mongodb://127.0.0.1:27017/wanderwise
 ```
 Then run:

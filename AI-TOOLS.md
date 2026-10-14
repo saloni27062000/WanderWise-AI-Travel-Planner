@@ -13,7 +13,7 @@ GitHub Copilot in VS Code (Copilot SDK) was used to inspect the existing React a
 
 ## What was reviewed or changed
 
-- Replaced the original default Gemini model ID with `gemini-2.5-flash`, which is listed in Google's Gemini model documentation for text generation.
+- Replaced the original default Gemini model ID with `gemini-3.5-flash-lite`, which is listed in Google's Gemini model documentation for text generation.
 - Corrected invalid trip details returning a server error; invalid destinations and trip lengths now receive a client-error response.
 - Kept the follow-up optional and added a skip action so it does not obstruct trip generation.
 - AI-generated travel suggestions are not live-verified. The app tells travelers to confirm prices, opening times, availability, and local guidance before relying on them.
