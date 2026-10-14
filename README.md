@@ -115,3 +115,10 @@ The client uses lightweight hash-based pages: `#home`, `#itinerary`, `#saved-tri
 
 ### Saved trips
 ![Saved trips](screenshots/16-saved-trips.png)
+
+### MongoDB persistence
+Saved trips are stored in the `wanderwise.trips` collection. Each document keeps the original trip preferences and the full AI-generated itinerary.
+
+| Bali family trip | Hampi workation trip |
+|---|---|
+| ![Bali trip in MongoDB](screenshots/17-mongodb-saved-trip-bali.png) | ![Hampi trip in MongoDB](screenshots/18-mongodb-saved-trip-hampi.png) |
